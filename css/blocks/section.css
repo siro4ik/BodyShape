@@ -1,0 +1,32 @@
+.section {
+    padding: 150px 0;
+}
+
+.section-trainers {
+
+}
+
+.container {
+
+}
+
+.seaction-header {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 850px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-title {
+    font-family: var(--font-accent);
+    font-weight: 700;
+    color:var(--accent);
+    font-size: 96px;
+    letter-spacing: 0.08em;
+}
+
+.seaction-header p{
+    line-height: 32px;
+
+}
