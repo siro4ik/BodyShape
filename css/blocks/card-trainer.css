@@ -45,3 +45,13 @@
 .card-trainer:hover::before{
     opacity: 1;
 }
+
+@media (hover: none) and (pointer: coarse){
+    .card-trainer-name{
+        opacity: 1;
+        top:50%;
+    }
+    .card-trainer::before{
+        opacity: 1;
+    }
+}

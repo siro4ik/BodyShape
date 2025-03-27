@@ -2,14 +2,6 @@
     padding: 150px 0;
 }
 
-.section-trainers {
-
-}
-
-.container {
-
-}
-
 .seaction-header {
     margin: 0 auto;
     margin-bottom: 50px;
@@ -22,11 +14,41 @@
     font-family: var(--font-accent);
     font-weight: 700;
     color:var(--accent);
-    font-size: 96px;
+    font-size: clamp(3rem, 1.909rem + 5.45vw, 6rem);
     letter-spacing: 0.08em;
 }
 
 .seaction-header p{
     line-height: 32px;
+}
 
+.section-trainers-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 30px;
+}
+
+@media (max-width: 800px){
+    .section{
+        padding: 100px 0;
+    }
+    .section-trainers-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .section{
+        padding: 80px 0;
+    }
+    .section-trainers-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .seaction-header p{
+        line-height: 32px;
+        font-size: 13px;
+    }
+    .seaction-header{
+        margin-bottom: 25px;
+    }
 }
