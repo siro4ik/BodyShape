@@ -1,0 +1,52 @@
+.section-beast {
+    background-image: image-set(
+    url("./../../img/beast/beast-bg.jpg") 1x,
+    url("./../../img/beast/beast-bg@2x.jpg") 2x
+);
+    height: 750px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 90%,0% 100%);
+    display: flex;
+    align-items: center ;
+}
+
+.section-beast-title {
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 75px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.section-beast-desk {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 150%;
+    color: #fff;
+    font-family: var(--font-base);
+}
+
+.section-beast-btn-wrapper {
+    border-radius: 7px;
+    background-color:  #ffd479;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 18px 46px 15px 47px;
+    transition: 0.4s ease;
+}
+
+.section-beast-btn-wrapper a{
+    font-family: var(--font-accent);
+font-weight: 700;
+font-size: 19px;
+letter-spacing: 0.26em;
+color: #000;
+}
+
+.section-beast-btn-wrapper:hover {
+    background-color: #f85d10;
+}
