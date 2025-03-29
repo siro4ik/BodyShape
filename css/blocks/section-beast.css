@@ -16,7 +16,7 @@
 .section-beast-title {
     font-family: var(--font-accent);
     font-weight: 700;
-    font-size: 75px;
+    font-size: clamp(2.625rem, 1.875rem + 3.75vw, 4.688rem);
     letter-spacing: 0.1em;
     color: #fff;
     margin-bottom: 10px;
@@ -24,7 +24,7 @@
 
 .section-beast-desk {
     font-weight: 300;
-    font-size: 22px;
+    font-size: clamp(0.875rem , 0.693rem + 0.91vw, 1.375rem);
     line-height: 150%;
     color: #fff;
     font-family: var(--font-base);
@@ -49,4 +49,11 @@ color: #000;
 
 .section-beast-btn-wrapper:hover {
     background-color: #f85d10;
+}
+
+@media (max-width: 800px){
+    .section-beast-btn-wrapper{
+        padding: 9px 23px 7px 23px;
+        letter-spacing: 0.1em;
+    }
 }
