@@ -1,0 +1,66 @@
+
+.section-groups {
+
+}
+
+.seaction-header {
+
+}
+
+.section-title p{
+    font-size: clamp(0.875rem , 0.693rem + 0.91vw, 1.375rem);
+}
+
+.section-groups-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 105px 32px ;
+}
+
+.card-group img{
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-group-img {
+    border-radius: 20px;
+
+}
+
+.card-group-title {
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: clamp(2.625rem, 1.875rem + 3.75vw, 4.688rem);
+    letter-spacing: 0.07em;
+    color: var(--accent);
+    margin-top: 25px;
+}
+
+@media (max-width: 1400px) {
+    .section-groups-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card-group-title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 870px) {
+    .section-groups-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px 20px ;
+    }
+    .card-group-title{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 350px) {
+    .section-groups-grid{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px 20px ;
+    }
+    .card-group-title{
+        font-size: 25px;
+        text-align: center;
+    }
+}
