@@ -1,0 +1,52 @@
+.form {
+    display: grid;
+    gap: 30px;
+}
+.form-group {
+}
+.label {
+    display: block;
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.input {
+    padding-bottom: 9.5px;
+    border-bottom: 1px solid #ffffff35;
+    width: 100%;
+}
+.textarea {
+    resize: none;
+    height: 172px;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #ffffff35;
+    line-height: 1.5;
+}
+
+.textarea:focus{
+    outline:none ;
+}
+.button {
+    border-radius: 7px;
+    background-color:  #ffd479;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 18px 46px 15px 47px;
+    transition: 0.4s ease;
+}
+
+.button {
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.26em;
+    color: #000000;
+    justify-self: flex-start;
+}
+
+.button:hover {
+    background-color: #f85d10;
+}
