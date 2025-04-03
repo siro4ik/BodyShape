@@ -14,9 +14,6 @@
     justify-content: center;
     align-items: center;
 }
-
-.container {
-}
 .container-contact {
     max-width: 615px;
 }
@@ -27,4 +24,10 @@
     font-size: 70px;
     letter-spacing: 0.06em;
     color: var(--accent);
+}
+
+@media (max-width:400px){
+    .contacts-title{
+        text-align: center;
+    }
 }
