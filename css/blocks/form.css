@@ -2,8 +2,7 @@
     display: grid;
     gap: 30px;
 }
-.form-group {
-}
+
 .label {
     display: block;
     font-family: var(--font-base);
